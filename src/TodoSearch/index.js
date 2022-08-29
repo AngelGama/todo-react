@@ -14,7 +14,7 @@ function TodoSearch() {
     return (
         <input
             className="TodoSearch"
-            placeholder="¿Qué tienes en mente?"
+            placeholder="¿Qué estás buscando?"
             value={searchValue}
             onChange={onSearchValueChange}
         />
